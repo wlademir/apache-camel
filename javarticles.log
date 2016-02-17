@@ -1,0 +1,150 @@
+2016-02-16 23:15:47,952 | INFO | DefaultCamelContext.java 2418 | Apache Camel 2.15.2 (CamelContext: camel-1) is starting
+2016-02-16 23:15:47,954 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2016-02-16 23:15:48,099 | INFO | DefaultTypeConverter.java 56 | Loaded 183 type converters
+2016-02-16 23:15:48,178 | INFO | DefaultCamelContext.java 2633 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-02-16 23:15:48,179 | INFO | DefaultCamelContext.java 2643 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-02-16 23:15:48,198 | INFO | DefaultCamelContext.java 3164 | Route: route1 started and consuming from: Endpoint[direct://article]
+2016-02-16 23:15:48,198 | INFO | DefaultCamelContext.java 2453 | Total 1 routes, of which 1 is started.
+2016-02-16 23:15:48,200 | INFO | DefaultCamelContext.java 2454 | Apache Camel 2.15.2 (CamelContext: camel-1) started in 0.249 seconds
+2016-02-16 23:15:48,207 | INFO | MarkerIgnoringBase.java 95 | Split by article Element
+2016-02-16 23:15:48,211 | INFO | XPathBuilder.java 1203 | Created default XPathFactory com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl@56a6d5a6
+2016-02-16 23:15:48,256 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel Splitter Example" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,eia</tags>
+    <authors>
+    <author>John</author>
+    </authors>
+  </article>
+2016-02-16 23:15:48,257 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel JMS Component" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,jms</tags>
+    <authors>
+      <author>John</author>
+      <author>Joe</author>
+    </authors>
+  </article>
+2016-02-16 23:15:48,258 | INFO | MarkerIgnoringBase.java 95 | <article category="spring" title="Spring JdbcTemplate" xmlns="http://javarticles.com/schema/articles">
+   <tags>spring,jdbc</tags>
+    <authors>
+      <author>Ram</author>
+      <author>Dean</author>
+    </authors>
+  </article>
+2016-02-16 23:15:48,259 | INFO | DefaultCamelContext.java 2660 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutting down
+2016-02-16 23:15:48,259 | INFO | DefaultShutdownStrategy.java 184 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-02-16 23:15:48,262 | INFO | DefaultShutdownStrategy.java 647 | Route: route1 shutdown complete, was consuming from: Endpoint[direct://article]
+2016-02-16 23:15:48,263 | INFO | DefaultShutdownStrategy.java 247 | Graceful shutdown of 1 routes completed in 0 seconds
+2016-02-16 23:15:48,266 | INFO | DefaultCamelContext.java 2745 | Apache Camel 2.15.2 (CamelContext: camel-1) uptime 0.317 seconds
+2016-02-16 23:15:48,266 | INFO | DefaultCamelContext.java 2746 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutdown in 0.007 seconds
+2016-02-16 23:18:05,713 | INFO | DefaultCamelContext.java 2418 | Apache Camel 2.15.2 (CamelContext: camel-1) is starting
+2016-02-16 23:18:05,715 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2016-02-16 23:18:05,829 | INFO | DefaultTypeConverter.java 56 | Loaded 183 type converters
+2016-02-16 23:18:05,893 | INFO | DefaultCamelContext.java 2633 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-02-16 23:18:05,893 | INFO | DefaultCamelContext.java 2643 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-02-16 23:18:05,909 | INFO | DefaultCamelContext.java 3164 | Route: route1 started and consuming from: Endpoint[direct://article]
+2016-02-16 23:18:05,909 | INFO | DefaultCamelContext.java 2453 | Total 1 routes, of which 1 is started.
+2016-02-16 23:18:05,911 | INFO | DefaultCamelContext.java 2454 | Apache Camel 2.15.2 (CamelContext: camel-1) started in 0.198 seconds
+2016-02-16 23:18:05,918 | INFO | MarkerIgnoringBase.java 95 | Split by article Element
+2016-02-16 23:18:05,921 | INFO | XPathBuilder.java 1203 | Created default XPathFactory com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl@56a6d5a6
+2016-02-16 23:18:05,967 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel Splitter Example" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,eia</tags>
+    <authors>
+    <author>John</author>
+    </authors>
+  </article>
+2016-02-16 23:18:05,967 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel JMS Component" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,jms</tags>
+    <authors>
+      <author>John</author>
+      <author>Joe</author>
+    </authors>
+  </article>
+2016-02-16 23:18:05,968 | INFO | MarkerIgnoringBase.java 95 | <article category="spring" title="Spring JdbcTemplate" xmlns="http://javarticles.com/schema/articles">
+   <tags>spring,jdbc</tags>
+    <authors>
+      <author>Ram</author>
+      <author>Dean</author>
+    </authors>
+  </article>
+2016-02-16 23:18:05,969 | INFO | DefaultCamelContext.java 2660 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutting down
+2016-02-16 23:18:05,969 | INFO | DefaultShutdownStrategy.java 184 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-02-16 23:18:05,972 | INFO | DefaultShutdownStrategy.java 647 | Route: route1 shutdown complete, was consuming from: Endpoint[direct://article]
+2016-02-16 23:18:05,973 | INFO | DefaultShutdownStrategy.java 247 | Graceful shutdown of 1 routes completed in 0 seconds
+2016-02-16 23:18:05,975 | INFO | DefaultCamelContext.java 2745 | Apache Camel 2.15.2 (CamelContext: camel-1) uptime 0.264 seconds
+2016-02-16 23:18:05,975 | INFO | DefaultCamelContext.java 2746 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutdown in 0.006 seconds
+2016-02-16 23:22:46,420 | INFO | DefaultCamelContext.java 2418 | Apache Camel 2.15.2 (CamelContext: camel-1) is starting
+2016-02-16 23:22:46,422 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2016-02-16 23:22:46,568 | INFO | DefaultTypeConverter.java 56 | Loaded 183 type converters
+2016-02-16 23:22:46,635 | INFO | DefaultCamelContext.java 2633 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-02-16 23:22:46,635 | INFO | DefaultCamelContext.java 2643 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-02-16 23:22:46,651 | INFO | DefaultCamelContext.java 3164 | Route: route1 started and consuming from: Endpoint[direct://article]
+2016-02-16 23:22:46,651 | INFO | DefaultCamelContext.java 2453 | Total 1 routes, of which 1 is started.
+2016-02-16 23:22:46,653 | INFO | DefaultCamelContext.java 2454 | Apache Camel 2.15.2 (CamelContext: camel-1) started in 0.234 seconds
+2016-02-16 23:22:46,661 | INFO | MarkerIgnoringBase.java 95 | Split by article Element
+2016-02-16 23:22:46,664 | INFO | XPathBuilder.java 1203 | Created default XPathFactory com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl@56a6d5a6
+2016-02-16 23:22:46,710 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel Splitter Example" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,eia</tags>
+    <authors>
+    <author>John</author>
+    </authors>
+  </article>
+2016-02-16 23:22:46,711 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel JMS Component" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,jms</tags>
+    <authors>
+      <author>John</author>
+      <author>Joe</author>
+    </authors>
+  </article>
+2016-02-16 23:22:46,711 | INFO | MarkerIgnoringBase.java 95 | <article category="spring" title="Spring JdbcTemplate" xmlns="http://javarticles.com/schema/articles">
+   <tags>spring,jdbc</tags>
+    <authors>
+      <author>Ram</author>
+      <author>Dean</author>
+    </authors>
+  </article>
+2016-02-16 23:22:46,712 | INFO | DefaultCamelContext.java 2660 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutting down
+2016-02-16 23:22:46,712 | INFO | DefaultShutdownStrategy.java 184 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-02-16 23:22:46,716 | INFO | DefaultShutdownStrategy.java 647 | Route: route1 shutdown complete, was consuming from: Endpoint[direct://article]
+2016-02-16 23:22:46,716 | INFO | DefaultShutdownStrategy.java 247 | Graceful shutdown of 1 routes completed in 0 seconds
+2016-02-16 23:22:46,719 | INFO | DefaultCamelContext.java 2745 | Apache Camel 2.15.2 (CamelContext: camel-1) uptime 0.302 seconds
+2016-02-16 23:22:46,719 | INFO | DefaultCamelContext.java 2746 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutdown in 0.007 seconds
+2016-02-16 23:40:54,972 | INFO | DefaultCamelContext.java 2418 | Apache Camel 2.15.2 (CamelContext: camel-1) is starting
+2016-02-16 23:40:54,974 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2016-02-16 23:40:55,117 | INFO | DefaultTypeConverter.java 56 | Loaded 183 type converters
+2016-02-16 23:40:55,201 | INFO | DefaultCamelContext.java 2660 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutting down
+2016-02-16 23:40:55,205 | INFO | DefaultCamelContext.java 2745 | Apache Camel 2.15.2 (CamelContext: camel-1) uptime 0.234 seconds
+2016-02-16 23:40:55,205 | INFO | DefaultCamelContext.java 2746 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutdown in 0.002 seconds
+2016-02-16 23:59:41,270 | INFO | DefaultCamelContext.java 2418 | Apache Camel 2.15.2 (CamelContext: camel-1) is starting
+2016-02-16 23:59:41,271 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2016-02-16 23:59:41,384 | INFO | DefaultTypeConverter.java 56 | Loaded 183 type converters
+2016-02-16 23:59:41,449 | INFO | DefaultCamelContext.java 2633 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-02-16 23:59:41,449 | INFO | DefaultCamelContext.java 2643 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-02-16 23:59:41,465 | INFO | DefaultCamelContext.java 3164 | Route: route1 started and consuming from: Endpoint[direct://article]
+2016-02-16 23:59:41,466 | INFO | DefaultCamelContext.java 2453 | Total 1 routes, of which 1 is started.
+2016-02-16 23:59:41,467 | INFO | DefaultCamelContext.java 2454 | Apache Camel 2.15.2 (CamelContext: camel-1) started in 0.198 seconds
+2016-02-16 23:59:41,475 | INFO | MarkerIgnoringBase.java 95 | Split by article Element
+2016-02-16 23:59:41,478 | INFO | XPathBuilder.java 1203 | Created default XPathFactory com.sun.org.apache.xpath.internal.jaxp.XPathFactoryImpl@56a6d5a6
+2016-02-16 23:59:41,522 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel Splitter Example" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,eia</tags>
+    <authors>
+    <author>John</author>
+    </authors>
+  </article>
+2016-02-16 23:59:41,522 | INFO | MarkerIgnoringBase.java 95 | <article category="camel" title="Camel JMS Component" xmlns="http://javarticles.com/schema/articles">
+    <tags>camel,jms</tags>
+    <authors>
+      <author>John</author>
+      <author>Joe</author>
+    </authors>
+  </article>
+2016-02-16 23:59:41,523 | INFO | MarkerIgnoringBase.java 95 | <article category="spring" title="Spring JdbcTemplate" xmlns="http://javarticles.com/schema/articles">
+   <tags>spring,jdbc</tags>
+    <authors>
+      <author>Ram</author>
+      <author>Dean</author>
+    </authors>
+  </article>
+2016-02-16 23:59:41,524 | INFO | DefaultCamelContext.java 2660 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutting down
+2016-02-16 23:59:41,524 | INFO | DefaultShutdownStrategy.java 184 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-02-16 23:59:41,527 | INFO | DefaultShutdownStrategy.java 647 | Route: route1 shutdown complete, was consuming from: Endpoint[direct://article]
+2016-02-16 23:59:41,528 | INFO | DefaultShutdownStrategy.java 247 | Graceful shutdown of 1 routes completed in 0 seconds
+2016-02-16 23:59:41,531 | INFO | DefaultCamelContext.java 2745 | Apache Camel 2.15.2 (CamelContext: camel-1) uptime 0.263 seconds
+2016-02-16 23:59:41,531 | INFO | DefaultCamelContext.java 2746 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutdown in 0.007 seconds
